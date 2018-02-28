@@ -1,0 +1,38 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+The diff function used on a linux command line did a good job of comparing two text files.  The plus and minus symbols next to the lines from each file succinctly showed the old and new versions of a feature in the file.  I find it interesting that the old file might just display blank lines in the diff output when a line or text has been added to the new file.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+I don't know about efficiency, but having the entire history of a file is a good way of showing progress.  Does the file get bigger, or smaller.  When were things changed and why.  I have worked previously as a mechanical design engineer where the output of our labors were part and assembly drawings.  Each drawing had a revision and often making revisions required group approval and reasons for making a change.  The barriers for change were both beurecratic and physical.  There was a repository of drawings somewhere on the intranet that only certain people had write priviledges to but it was often inefficient to open all the drawings and try to track changes.  Below the level of released documents, there was a file repository for all the parts used in a product that allowed users to check out parts, make changes and check them back in.  This was built only for the drawing software so may not have been the most efficient or well built program.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+I suspect that a manual commit allows you to create more descriptive mile markers on your copies.  You definitely end up with less copies and this might be more useful than having a sea of copies when you want to roll back to a specific version.  There would probably be more human memory and significant given to manually commited documents.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Google Docs might not have as much interdependency between files.  Code might require updating libraries, functions, and mains.  Verifying that all files work together on a git could be tedious.  Performing this locally as you modify the code verifies that the code portions actually work together.
+
+How can you use the commands git log and git diff to view the history of files?
+
+I am not familiar with those commands.  Were they in a part of the lectures that I missed?
+
+How might using version control make you more confident to make changes that
+could break something?
+
+Easily.  Knowing you can roll back to a flawed but working version of code means the code you are working on is its own prototype and sandboxed away from the repository code which people may still be using.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I am just trying to download the files for the machine learning class.  I am pathetically ignorant of github so it is best that I devote a good portion of time mastering it.
+
+###Now that you have your workspace set up, what do you want to try using Git for?
+
+What happened to my headings that I had before in the gedit?  I miss that simple little program.
+
+OK, what I really want to do with Git is to upload all my nanodegree work.  I feel like I need to make my presence known on the "Internet".
