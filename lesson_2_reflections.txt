@@ -1,0 +1,7 @@
+###Reflect: Initializing a Repository
+What happens when you initialize a repository? Why do you need to do it?
+Git creates a .git folder that contains a repository of all the files in the directory.  There is also "meta-data" that keeps track of changes and commits.  If you don't initialize a repository, you won't be able to make a commit.
+
+###Reflect: Staging Area
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging is like an intermediary between the working directory and the repository.  It is temporary and but the files present and the description are recorded to give a snapshot of the commit.  The working directory is still where you get most of you work done.  In fact the repository almost looks like the working directory but for the hidden files.
