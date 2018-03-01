@@ -1,0 +1,3 @@
+###Reflect: Using a remote repository
+When would you want to use a remote repository rather than keeping all your work local?
+A remote repository seems like a good way to back-up you work.  Of course, using a remote repository means that all work does not have to be done on one computer.  This means you can use various of you own personal computers on a projects but it also means you can collaborate with other people.  Git now appears to track the contributions of various people on a project and not just how the project changes over time.
