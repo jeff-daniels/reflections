@@ -17,3 +17,8 @@ Branches are good to add when you want to do an experimental program or a weird 
 ###Reflect: Visualizing with Diagrams
 How do the diagrams help you visualize the branch structure?
 They just do.  That is by design.  It is quite remarkable the level of visualization that can take place in a terminal window.  Not only do they show a linear progression of improvements on the master branch, they can also show the branches in the repository.  Now you can figure out who is working on what.
+
+###Reflect: Merging Two Branches
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging branches adds all the changes in the branches together.  If you are merging with the master branch, it will create a new tip on the diagram.
+
