@@ -22,3 +22,7 @@ They just do.  That is by design.  It is quite remarkable the level of visualiza
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 Merging branches adds all the changes in the branches together.  If you are merging with the master branch, it will create a new tip on the diagram.
 
+###Reflect: Automatic vs. Manual Merging
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+It is nice when the computer does work for you.  Making merges manually seems error prone and a lot of work.  Resolving conflicts seems like a pain in the butt already and it is basically manual merging the stuff git can't figure out.
+
